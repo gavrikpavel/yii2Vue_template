@@ -1,0 +1,39 @@
+{
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "plugin:vue/essential"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "none",
+        "tabWidth": 2
+      }
+    ],
+    "vue/html-self-closing": [
+      "error", {
+        "html": {
+          "void": "never",
+          "normal": "never",
+          "component": "never"
+        }
+      }
+    ],
+    "no-debugger": "off",
+    "no-console": 0
+  }
+}

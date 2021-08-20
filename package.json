@@ -1,0 +1,37 @@
+{
+  "name": "yiivue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "typeface-roboto": "^1.1.13",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
+    "vuetify": "^2.5.6",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@mdi/js": "^5.9.55",
+    "cross-env": "^6.0.3",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.11.1",
+    "laravel-mix": "^6.0.0",
+    "prettier": "^2.3.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.4.0"
+  }
+}
